@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    padding-top: 40px;
+    width: 1400px;
+    height: 400px;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.flex img{
+    width: 100%;
+}
+
+
+.flex{
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 15px;
+}
+
+.flex{
+    cursor: pointer;
+    padding: 30px 50px;
+}
+.flex p{
+    font-size: 20px;
+}
+
+.flex p:hover{
+    color: aqua;
+    transition: 0.50s;
+}
+
+.flex button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.flex button:hover{
+    background-color: red;
+    transition: 5s;
+}
